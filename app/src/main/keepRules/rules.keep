@@ -1,0 +1,7 @@
+# Reglas de R8 propias de IU Digital Radio.
+# AGP combina todos los archivos de src/main/keepRules y se los pasa a R8 en el build de release.
+#
+# Por ahora no hacen falta reglas adicionales: Media3, Coil y Compose traen sus propias reglas
+# de consumo, y el cliente de Radio Browser arma los objetos con org.json, sin reflexión.
+#
+# Más información: https://d.android.com/r/tools/r8/keep-rules
