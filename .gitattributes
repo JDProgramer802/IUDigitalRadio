@@ -1,0 +1,7 @@
+# Finales de línea: LF en el repositorio para que gradlew funcione en Linux, macOS y CI.
+* text=auto eol=lf
+*.bat text eol=crlf
+
+# Binarios: Git no debe intentar compararlos ni convertirlos.
+*.png binary
+*.jar binary

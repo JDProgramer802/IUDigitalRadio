@@ -1,0 +1,30 @@
+# Android Studio / IntelliJ
+*.iml
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deviceManager.xml
+
+# Gradle y Kotlin
+.gradle
+.kotlin
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Configuración local (ruta del SDK)
+local.properties
+
+# Llaves de firma: nunca se suben al repositorio
+*.jks
+*.keystore
+keystore.properties
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
