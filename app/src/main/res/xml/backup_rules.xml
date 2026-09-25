@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 o inferior: la foto de perfil nunca sale del dispositivo. -->
+<full-backup-content>
+    <exclude domain="file" path="profile_photo.png" />
+</full-backup-content>
